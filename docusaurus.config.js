@@ -24,13 +24,13 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com//tokuzou0829/tokuzouserver-docs/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/tokuzou0829/tokuzouserver-docs/edit/main/docs',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/tokuzou0829/tokuzouserver-docs/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/tokuzou0829/tokuzouserver-docs/edit/main/blog',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
