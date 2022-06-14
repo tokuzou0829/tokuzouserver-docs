@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'とくぞうサーバーDocs',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'とくぞうサーバーDocs',
   url: 'https://docs.tokuzouserver.net',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -46,7 +46,7 @@ const config = {
         title: 'とくぞうサーバーDocs',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'https://img.tokuzouserver.net/12edc881-1ef1-456a-9db8-901f12ebd38d.png?w=64&h=64',
         },
         items: [
           {
