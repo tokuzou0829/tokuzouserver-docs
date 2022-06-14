@@ -46,7 +46,7 @@ const config = {
         title: 'とくぞうサーバーDocs',
         logo: {
           alt: 'My Site Logo',
-          src: 'https://img.tokuzouserver.net/12edc881-1ef1-456a-9db8-901f12ebd38d.png?w=64&h=64',
+          src: 'img/logo.png',
         },
         items: [
           {
