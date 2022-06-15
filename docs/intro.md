@@ -3,15 +3,19 @@ sidebar_position: 1
 slug: /
 ---
 
-# Tutorial Intro
+# Welcome
 
-Let's discover **Docusaurus in less than 5 minutes**.
+ここは**とくぞうサーバー**のAPIに関するDocsです。
 
-## Getting Started
+## APIの利用に関する情報
 
-Get started by **creating a new site**.
+APIのTESTには **Curl**・**Postman**が便利です。
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+APIを利用する時は **各サービス** の利用規約を確認してください
+
+**[TokuzouServerACC](https://acc.tokuzouserver.net/Terms-of-service)**
+
+**[TokuzouServerIMG](https://acc.tokuzouserver.net/Terms-of-service)**
 
 ### What you'll need
 

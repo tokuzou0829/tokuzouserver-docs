@@ -45,6 +45,9 @@ const config = {
         },
         items: [
           {
+            type: 'docsVersionDropdown',
+          },
+          {
             type: 'doc',
             docId: 'intro',
             position: 'left',
@@ -104,5 +107,10 @@ const config = {
       },
     }),
 };
-
+module.exports = {
+  i18n: {
+    defaultLocale: 'ja',
+    locales: ['ja', ],
+  },
+};
 module.exports = config;
