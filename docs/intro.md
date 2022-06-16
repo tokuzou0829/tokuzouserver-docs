@@ -5,24 +5,26 @@ slug: /
 
 # Welcome
 
-ここは**とくぞうサーバー**のAPIに関するDocsです。
+Welcome! This is the Docs section for the **Tokuzo Server API**.
 
-## APIの利用に関する情報
+## Information on API usage
 
-APIのTESTには **Curl**・**Postman**が便利です。
+### Useful tools for using the API
+**Curl**,**Postman** is useful for TEST of APIs.
 
-APIを利用する時は **各サービス** の利用規約を確認してください
+### Terms of Use
+Please check the terms of use of each service when using the API
 
 **[TokuzouServerACC](https://acc.tokuzouserver.net/Terms-of-service)**
 
 **[TokuzouServerIMG](https://acc.tokuzouserver.net/Terms-of-service)**
 
-### What you'll need
+### Token Issuance
 
-- [Node.js](https://nodejs.org/en/download/) version 14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+- [OAuthToken](https://acc.tokuzouserver.net/dashboard/clients)-TokuzouServerACC:
+  - You can easily issue an OAuth Token by logging in.
 
-## Generate a new site
+## About this site
 
 Generate a new Docusaurus site using the **classic template**.
 
@@ -35,18 +37,3 @@ npm init docusaurus@latest my-website classic
 You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
 
 The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.

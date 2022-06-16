@@ -71,6 +71,10 @@ const config = {
                 label: 'TokuzouServerIMG',
                 to: '/TokuzouServerIMG/About-TokuzouServerIMG',
               },
+              {
+                label: 'TokuzouServerACC',
+                to: '/TokuzouServerACC/About-TokuzouServerACC',
+              },
             ],
           },
           {

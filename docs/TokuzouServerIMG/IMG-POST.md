@@ -35,6 +35,9 @@ Use multipart/form-data.
 | 404 | Not Found. |
 
 ## Example Usage
+```bash
+curl -F 'file=@/Your_IMG_pass/file.jpg' https://img.tokuzouserver.net/
+```
 <Tabs>
   <TabItem value="js" label="Javascript" default>
 

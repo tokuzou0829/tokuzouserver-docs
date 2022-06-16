@@ -37,6 +37,9 @@ Use application/json
 | 404 | Not Found. |
 
 ## Example Usage
+```bash
+curl -X POST -H "Content-Type: application/json" -d '{"url": "<Your_IMG_URL>"}'  https://img.tokuzouserver.net/
+```
 <Tabs>
   <TabItem value="js" label="Javascript" default>
 
