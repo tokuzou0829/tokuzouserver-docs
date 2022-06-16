@@ -108,18 +108,4 @@ const config = {
       },
     }),
 };
-module.exports = {
-  i18n: {
-    defaultLocale: 'ja',
-    locales: ['ja'],
-    localeConfigs: {
-      ja: {
-        label: '日本語',
-        direction: 'ltr',
-      },
-    },
-  },
-};
-
-
 module.exports = config;
