@@ -69,7 +69,7 @@ const config = {
               },
               {
                 label: 'TokuzouServerIMG',
-                to: '/TokuzouServerIMG',
+                to: '/TokuzouServerIMG/About-TokuzouServerIMG',
               },
             ],
           },
