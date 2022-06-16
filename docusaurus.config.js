@@ -67,8 +67,12 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Welcome',
                 to: '/',
+              },
+              {
+                label: 'TokuzouServerIMG',
+                to: '/TokuzouServerIMG',
               },
             ],
           },
