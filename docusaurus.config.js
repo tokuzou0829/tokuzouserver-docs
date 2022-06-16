@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'とくぞうサーバーDocs',
-  tagline: 'とくぞうサーバーDocs',
+  title: 'TokuzouServerDocs',
+  tagline: 'TokuzouServerDocs',
   url: 'https://docs.tokuzouserver.net',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -38,7 +38,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'とくぞうサーバーDocs',
+        title: 'TokuzouServerDocs',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.png',
