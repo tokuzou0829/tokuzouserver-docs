@@ -74,19 +74,19 @@ const config = {
             ],
           },
           {
-            title: 'Community',
+            title: 'Service',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'TokuzouServerACC',
+                href: 'https://acc.tokuzouserver.net/',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'TokuzouServerIMG',
+                href: 'https://img.tokuzouserver.net/',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'HomePage',
+                href: 'https://tokuzouserver.net/',
               },
             ],
           },
@@ -95,7 +95,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/tokuzou0829/tokuzouserver-docs',
               },
             ],
           },
