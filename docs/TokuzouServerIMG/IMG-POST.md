@@ -65,7 +65,7 @@ import requests
 reqUrl = "https://img.tokuzouserver.net/"
 
 post_files = {
-  "file": open("/Users/tokuzou/Downloads/41futon-1527249219106779136-20220519_202603-img1.jpg", "rb"),
+  "file": open("Your_IMG_pass", "rb"),
 }
 headersList = {
  
