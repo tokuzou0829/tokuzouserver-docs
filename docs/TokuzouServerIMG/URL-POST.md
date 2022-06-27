@@ -48,10 +48,12 @@ let headersList = {
  "Content-Type": "application/json"
 }
 
-let bodyContent = "url=https://example.com/";
+let bodyContent = JSON.stringify({
+    "url":"https://example.com/"
+});
 
 fetch("https://img.tokuzouserver.net/", { 
-  method: "GET",
+  method: "POST",
   body: bodyContent,
   headers: headersList
 }).then(function(response) {
@@ -74,9 +76,11 @@ headersList = {
  "Content-Type": "application/json" 
 }
 
-payload = "url=https://example.com/"
+payload = json.dumps({
+    "url":"https://example.com/"
+})
 
-response = requests.request("GET", reqUrl, data=payload,  headers=headersList)
+response = requests.request("POST", reqUrl, data=payload,  headers=headersList)
 
 print(response.text)
 ```
@@ -92,11 +96,13 @@ let headersList = {
  "Content-Type": "application/json" 
 }
 
-let bodyContent = "url=https://example.com/";
+let bodyContent = JSON.stringify({
+    "url":"https://example.com/"
+});
 
 let reqOptions = {
   url: "https://img.tokuzouserver.net/",
-  method: "GET",
+  method: "POST",
   headers: headersList,
   data: bodyContent,
 }
@@ -117,11 +123,11 @@ var headersList = {
 var url = Uri.parse('https://img.tokuzouserver.net/');
 
 var body = {
- 'url': 'https://example.com/' 
+    "url":"https://example.com/"
 };
-var req = http.Request('GET', url);
+var req = http.Request('POST', url);
 req.headers.addAll(headersList);
-req.bodyFields = body;
+req.body = json.encode(body);
 
 var res = await req.send();
 final resBody = await res.stream.bytesToString();
